@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	outline: 0px;
+}
+body{
+
+}
+.block{
+ width: 380px;
+ height: 418px;
+ margin-top: 50px;
+ position: relative;
+ margin-left: 20px;
+ 
+ box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.triagle{
+	color: #ffffff;
+	font-size: 30px;
+	position: absolute;
+	top: -27px;
+	right: 0px;
+	text-shadow: 0px -4px 20px rgba(0, 0, 0, 0.1);
+}
+.input{
+	position: relative;
+}
+.input img{
+position: absolute;
+right: 12px;
+top: 12px;
+}
+.full{
+	padding: 20px;
+}
+.search-text{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 20px;
+}
+.brend{
+	margin-top: 11px;
+	flex-wrap: wrap;
+	display: flex;
+}
+.img-brend{
+margin-right: 10px;
+}
+.brend img{
+width: 70px;
+height: 60px;
+}
+.search{
+width: 340px;
+height: 40px;
+}
+.search::placeholder {
+padding-left: 20px;
+}
+.brend-text{
+	text-align: center;
+	font-size: 10px;
+}
