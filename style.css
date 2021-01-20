@@ -47,6 +47,9 @@ top: 12px;
 	display: flex;
 	justify-content: space-between;
 }
+.img-brend{
+margin-bottom: 20px;
+}
 .brend .img{
 display: flex;
 justify-content: center;
