@@ -81,6 +81,8 @@ width: 340px;
 height: 40px;
 }
 .search::placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 padding-left: 20px;
 }
 .brend-text{
