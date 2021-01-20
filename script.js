@@ -1,9 +1,13 @@
-
-$(".loupe").click(function () {
-$(".full-block").addClass("display-block").removeClass("display-none");
-
+let close=false;
 $("#block").click(function () {
-$(".full-block").removeClass("display-block").addClass("display-none");
+if (close==false) {
+$(".full-block").addClass("display-block").removeClass("display-none");
+close=true;
+}
+else{
+$(".full-block").addClass("display-none").removeClass("display-block");
+close=false;
+}
 });
 
-});
+
