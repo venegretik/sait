@@ -7,6 +7,24 @@
 body{
 
 }
+.full-block{
+	position: absolute;
+	right: 275px;
+}
+.loupe{
+	position: absolute;
+	right: 300px;
+}
+.active{
+	position: absolute;
+	right: 300px;
+}
+.display-block{
+display: block;
+}
+.display-none{
+display: none;
+}
 .block{
  width: 380px;
  height: 418px;
